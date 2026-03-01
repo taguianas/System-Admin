@@ -1,0 +1,13 @@
+# Sample CSV for create_users.sh and delete_users.sh
+# Columns: username,group,shell,password
+# - Leave password blank to auto-generate a temporary one
+# - Leave shell blank to use the default (/bin/bash)
+# - Group is created automatically if it does not exist
+username,group,shell,password
+alice,developers,/bin/bash,
+bob,developers,/bin/bash,
+carol,qa,/bin/bash,TempPass@2026
+dave,qa,/bin/zsh,
+eve,devops,/bin/bash,
+frank,devops,/bin/bash,
+grace,sysadmin,/bin/bash,AdminTemp!99

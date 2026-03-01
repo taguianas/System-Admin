@@ -1,0 +1,14 @@
+# Sample CSV for manage_groups.sh bulk command
+# Columns: action,group,username
+# Actions: create, delete, add, remove
+# - For create/delete: leave username column blank
+action,group,username
+create,devops,
+create,qa,
+add,developers,alice
+add,developers,bob
+add,qa,carol
+add,qa,dave
+add,devops,eve
+add,devops,frank
+remove,qa,dave
