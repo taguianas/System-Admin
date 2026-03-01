@@ -1,0 +1,21 @@
+# Configuration
+pyyaml>=6.0
+
+# System info (cross-platform)
+psutil>=5.9
+
+# SSH / remote access
+paramiko>=3.0
+
+# Email templating
+jinja2>=3.1
+
+# Web dashboard
+flask>=3.0
+
+# Testing
+pytest>=8.0
+pytest-cov>=4.0
+
+# Linting (dev)
+flake8>=7.0

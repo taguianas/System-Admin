@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# Logs
+logs/
+*.log
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Local config overrides (keep templates, ignore local secrets)
+*.local.yaml
+*.local.yml
+*.local.json
+
+# SQLite databases (monitoring history)
+*.db
+*.sqlite3
+
+# Backup artifacts
+*.tar.gz
+*.zip
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PowerShell
+*.ps1xml
+
+# Secrets / credentials
+*.pem
+*.key
+secrets.yaml
+credentials.yaml
